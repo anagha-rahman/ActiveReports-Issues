@@ -1,0 +1,45 @@
+<div class="form-wrapper">
+  <form [formGroup]="saveForm" class="d-flex">
+    <div class="btn-div">
+      <button class="btn" type="button" (click)="fontReportSearch()"
+        [ngClass]="{'btn-selected': selectedButton === 'fontReport'}" id="unitBtnSearch" name="unitBtnSearch"
+        class="btn btn-viewer">
+        Font Issue Report
+      </button>
+      <button class="btn" type="button" (click)="drillDownReportSearch()"
+        [ngClass]="{'btn-selected': selectedButton === 'drillDownReport'}" id="unitBtnSearch" name="unitBtnSearch"
+        class="btn btn-viewer">
+        Drill Down Issue Report
+      </button>
+    </div>
+  </form>
+</div>
+
+<div id="designer-host" class="hide"></div>
+<div id="viewer-host" class="hide"></div>
+
+
+<div *ngIf="showDialog" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Open Report</h5>
+      <button type="button" class="close" (click)="onCloseDialog()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <strong>Select Report:</strong>
+      <div class="list-group">
+        <button type="button" *ngFor="let report of reportStorage | keyvalue"
+          class="list-group-item list-group-item-action" (click)="onSelectReport(report.key)">
+          {{ report.key }}
+        </button>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-secondary" (click)="onCloseDialog()">
+        Close
+      </button>
+    </div>
+  </div>
+</div>

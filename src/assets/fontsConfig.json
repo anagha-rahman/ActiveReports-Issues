@@ -1,0 +1,90 @@
+{
+	"path": "",
+	"descriptors": [
+{
+    "name": "Roboto",
+    "weight": "900",
+    "style": "Black",
+    "source": "../assets/fonts/Roboto/Roboto-Black.ttf"
+},
+{
+    "name": "Roboto",
+    "weight": "700",
+    "style": "Bold",
+    "source": "../assets/fonts/Roboto/Roboto-Bold.ttf"
+},
+{
+    "name": "Roboto",
+    "weight": "300",
+    "style": "Light",
+    "source": "../assets/fonts/Roboto/Roboto-Light.ttf"
+},
+{
+    "name": "Roboto",
+    "weight": "500",
+    "style": "Medium",
+    "source": "../assets/fonts/Roboto/Roboto-Medium.ttf"
+},
+{
+    "name": "Roboto",
+    "weight": "400",
+    "style": "Regular",
+    "source": "../assets/fonts/Roboto/Roboto-Regular.ttf"
+},
+{
+    "name": "Roboto",
+    "weight": "200",
+    "style": "Thin",
+    "source": "../assets/fonts/Roboto/Roboto-Thin.ttf"
+},
+{
+    "name": "Inter",
+    "weight": "900",
+    "style": "Black",
+    "source": "../assets/fonts/Inter/Inter-Black.woff"
+},
+{
+    "name": "Inter",
+    "weight": "700",
+    "style": "Bold",
+    "source": "../assets/fonts/Inter/Inter-Bold.woff"
+},
+{
+    "name": "Inter",
+    "weight": "300",
+    "style": "Light",
+    "source": "../assets/fonts/Inter/Inter-Light.woff"
+},
+{
+    "name": "Inter",
+    "weight": "500",
+    "style": "Medium",
+    "source": "../assets/fonts/Inter/Inter-Medium.woff"
+},
+{
+    "name": "Inter",
+    "weight": "400",
+    "style": "Regular",
+    "source": "../assets/fonts/Inter/Inter-Regular.woff"
+},
+{
+    "name": "Inter",
+    "weight": "200",
+    "style": "Thin",
+    "source": "../assets/fonts/Inter/Inter-Thin.woff"
+},
+{
+    "name": "Inter",
+    "weight": "100",
+    "style": "Extra Light",
+    "source": "../assets/fonts/Inter/Inter-ExtraLight.woff"
+},
+{
+    "name": "Inter",
+    "weight": "800",
+    "style": "Extra Bold",
+    "source": "../assets/fonts/Inter/Inter-ExtraBold.woff"
+}
+
+]
+}

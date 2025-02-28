@@ -1,0 +1,17 @@
+{
+  "name": "active-reports-tool",
+  "version": "0.0.1",
+  "files": ["src/assets", "assets/**/*"],
+  "scripts": {
+     "build": "ng build active-reports-tool"
+      },
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/router":"^3.3.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

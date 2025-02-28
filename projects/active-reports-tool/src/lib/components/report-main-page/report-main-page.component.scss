@@ -1,0 +1,27 @@
+@import url("/src/assets/styles_mescius/ar-js-ui.css");
+@import url("/src/assets/styles_mescius/ar-js-designer.css");
+@import url("/src/assets/styles_mescius/ar-js-viewer.css");
+
+#designer-host, #viewer-host {
+    width: 100%;
+    height: 1000px;
+}
+.hide {
+    display: none;
+}
+.form-wrapper {
+    min-height: 70px;
+}
+
+.btn-div{
+  align-items: center;
+  display: flex;
+  column-gap: 30px;
+}
+.btn{
+  height: 40px;
+}
+.btn-selected {
+  background-color: green;
+  color: white;
+}
